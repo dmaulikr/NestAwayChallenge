@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583C70D51BD23B5A00DF5540 /* OverlaySelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583C70D41BD23B5A00DF5540 /* OverlaySelectionView.m */; };
+		584D748C1BD2129F00F94E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D748B1BD2129F00F94E90 /* main.m */; };
+		584D748F1BD2129F00F94E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D748E1BD2129F00F94E90 /* AppDelegate.m */; };
+		584D74921BD2129F00F94E90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D74911BD2129F00F94E90 /* ViewController.m */; };
+		584D74951BD2129F00F94E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584D74931BD2129F00F94E90 /* Main.storyboard */; };
+		584D74971BD2129F00F94E90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584D74961BD2129F00F94E90 /* Images.xcassets */; };
+		584D749A1BD2129F00F94E90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584D74981BD2129F00F94E90 /* LaunchScreen.xib */; };
+		584D74A61BD2129F00F94E90 /* NestAwayChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D74A51BD2129F00F94E90 /* NestAwayChallengeTests.m */; };
+		584D74B01BD2150900F94E90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D74AF1BD2150900F94E90 /* MapKit.framework */; };
+		584D74B31BD2196600F94E90 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D74B21BD2196600F94E90 /* MyLocation.m */; };
+		584D74B51BD21F1700F94E90 /* residence.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D74B41BD21F1700F94E90 /* residence.png */; };
+		584D74B71BD2329D00F94E90 /* infographic.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D74B61BD2329D00F94E90 /* infographic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584D74A01BD2129F00F94E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584D747E1BD2129E00F94E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584D74851BD2129F00F94E90;
+			remoteInfo = NestAwayChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		583C70D31BD23B5A00DF5540 /* OverlaySelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlaySelectionView.h; sourceTree = "<group>"; };
+		583C70D41BD23B5A00DF5540 /* OverlaySelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlaySelectionView.m; sourceTree = "<group>"; };
+		584D74861BD2129F00F94E90 /* NestAwayChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestAwayChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584D748A1BD2129F00F94E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584D748B1BD2129F00F94E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584D748D1BD2129F00F94E90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584D748E1BD2129F00F94E90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584D74901BD2129F00F94E90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584D74911BD2129F00F94E90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584D74941BD2129F00F94E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584D74961BD2129F00F94E90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		584D74991BD2129F00F94E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		584D749F1BD2129F00F94E90 /* NestAwayChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestAwayChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584D74A41BD2129F00F94E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584D74A51BD2129F00F94E90 /* NestAwayChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestAwayChallengeTests.m; sourceTree = "<group>"; };
+		584D74AF1BD2150900F94E90 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		584D74B11BD2196600F94E90 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		584D74B21BD2196600F94E90 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
+		584D74B41BD21F1700F94E90 /* residence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = residence.png; sourceTree = "<group>"; };
+		584D74B61BD2329D00F94E90 /* infographic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infographic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584D74831BD2129F00F94E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584D74B01BD2150900F94E90 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584D749C1BD2129F00F94E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584D747D1BD2129E00F94E90 = {
+			isa = PBXGroup;
+			children = (
+				584D74AF1BD2150900F94E90 /* MapKit.framework */,
+				584D74881BD2129F00F94E90 /* NestAwayChallenge */,
+				584D74A21BD2129F00F94E90 /* NestAwayChallengeTests */,
+				584D74871BD2129F00F94E90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584D74871BD2129F00F94E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584D74861BD2129F00F94E90 /* NestAwayChallenge.app */,
+				584D749F1BD2129F00F94E90 /* NestAwayChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584D74881BD2129F00F94E90 /* NestAwayChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				584D74B61BD2329D00F94E90 /* infographic.png */,
+				584D74B41BD21F1700F94E90 /* residence.png */,
+				584D748D1BD2129F00F94E90 /* AppDelegate.h */,
+				584D748E1BD2129F00F94E90 /* AppDelegate.m */,
+				584D74901BD2129F00F94E90 /* ViewController.h */,
+				584D74911BD2129F00F94E90 /* ViewController.m */,
+				584D74931BD2129F00F94E90 /* Main.storyboard */,
+				584D74961BD2129F00F94E90 /* Images.xcassets */,
+				584D74981BD2129F00F94E90 /* LaunchScreen.xib */,
+				584D74891BD2129F00F94E90 /* Supporting Files */,
+				584D74B11BD2196600F94E90 /* MyLocation.h */,
+				584D74B21BD2196600F94E90 /* MyLocation.m */,
+				583C70D31BD23B5A00DF5540 /* OverlaySelectionView.h */,
+				583C70D41BD23B5A00DF5540 /* OverlaySelectionView.m */,
+			);
+			path = NestAwayChallenge;
+			sourceTree = "<group>";
+		};
+		584D74891BD2129F00F94E90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584D748A1BD2129F00F94E90 /* Info.plist */,
+				584D748B1BD2129F00F94E90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584D74A21BD2129F00F94E90 /* NestAwayChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				584D74A51BD2129F00F94E90 /* NestAwayChallengeTests.m */,
+				584D74A31BD2129F00F94E90 /* Supporting Files */,
+			);
+			path = NestAwayChallengeTests;
+			sourceTree = "<group>";
+		};
+		584D74A31BD2129F00F94E90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584D74A41BD2129F00F94E90 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584D74851BD2129F00F94E90 /* NestAwayChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584D74A91BD2129F00F94E90 /* Build configuration list for PBXNativeTarget "NestAwayChallenge" */;
+			buildPhases = (
+				584D74821BD2129F00F94E90 /* Sources */,
+				584D74831BD2129F00F94E90 /* Frameworks */,
+				584D74841BD2129F00F94E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestAwayChallenge;
+			productName = NestAwayChallenge;
+			productReference = 584D74861BD2129F00F94E90 /* NestAwayChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584D749E1BD2129F00F94E90 /* NestAwayChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584D74AC1BD2129F00F94E90 /* Build configuration list for PBXNativeTarget "NestAwayChallengeTests" */;
+			buildPhases = (
+				584D749B1BD2129F00F94E90 /* Sources */,
+				584D749C1BD2129F00F94E90 /* Frameworks */,
+				584D749D1BD2129F00F94E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584D74A11BD2129F00F94E90 /* PBXTargetDependency */,
+			);
+			name = NestAwayChallengeTests;
+			productName = NestAwayChallengeTests;
+			productReference = 584D749F1BD2129F00F94E90 /* NestAwayChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584D747E1BD2129E00F94E90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adavya Technologies";
+				TargetAttributes = {
+					584D74851BD2129F00F94E90 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					584D749E1BD2129F00F94E90 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 584D74851BD2129F00F94E90;
+					};
+				};
+			};
+			buildConfigurationList = 584D74811BD2129E00F94E90 /* Build configuration list for PBXProject "NestAwayChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584D747D1BD2129E00F94E90;
+			productRefGroup = 584D74871BD2129F00F94E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584D74851BD2129F00F94E90 /* NestAwayChallenge */,
+				584D749E1BD2129F00F94E90 /* NestAwayChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584D74841BD2129F00F94E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584D74951BD2129F00F94E90 /* Main.storyboard in Resources */,
+				584D749A1BD2129F00F94E90 /* LaunchScreen.xib in Resources */,
+				584D74B71BD2329D00F94E90 /* infographic.png in Resources */,
+				584D74B51BD21F1700F94E90 /* residence.png in Resources */,
+				584D74971BD2129F00F94E90 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584D749D1BD2129F00F94E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584D74821BD2129F00F94E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584D74921BD2129F00F94E90 /* ViewController.m in Sources */,
+				584D748F1BD2129F00F94E90 /* AppDelegate.m in Sources */,
+				583C70D51BD23B5A00DF5540 /* OverlaySelectionView.m in Sources */,
+				584D74B31BD2196600F94E90 /* MyLocation.m in Sources */,
+				584D748C1BD2129F00F94E90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584D749B1BD2129F00F94E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584D74A61BD2129F00F94E90 /* NestAwayChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584D74A11BD2129F00F94E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584D74851BD2129F00F94E90 /* NestAwayChallenge */;
+			targetProxy = 584D74A01BD2129F00F94E90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584D74931BD2129F00F94E90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584D74941BD2129F00F94E90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584D74981BD2129F00F94E90 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584D74991BD2129F00F94E90 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584D74A71BD2129F00F94E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		584D74A81BD2129F00F94E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584D74AA1BD2129F00F94E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NestAwayChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584D74AB1BD2129F00F94E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NestAwayChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		584D74AD1BD2129F00F94E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NestAwayChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestAwayChallenge.app/NestAwayChallenge";
+			};
+			name = Debug;
+		};
+		584D74AE1BD2129F00F94E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NestAwayChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestAwayChallenge.app/NestAwayChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584D74811BD2129E00F94E90 /* Build configuration list for PBXProject "NestAwayChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584D74A71BD2129F00F94E90 /* Debug */,
+				584D74A81BD2129F00F94E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584D74A91BD2129F00F94E90 /* Build configuration list for PBXNativeTarget "NestAwayChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584D74AA1BD2129F00F94E90 /* Debug */,
+				584D74AB1BD2129F00F94E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584D74AC1BD2129F00F94E90 /* Build configuration list for PBXNativeTarget "NestAwayChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584D74AD1BD2129F00F94E90 /* Debug */,
+				584D74AE1BD2129F00F94E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584D747E1BD2129E00F94E90 /* Project object */;
+}
